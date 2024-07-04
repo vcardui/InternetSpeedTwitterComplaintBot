@@ -8,8 +8,8 @@
 # +----------------------------------------------------------------------------+
 # | Author.......: Vanessa Reteguín <vanessa@reteguin.com>
 # | First release: June 13th, 2024
-# | Last update..: July 2nd, 2024
-# | WhatIs.......: Internet Speed X (Twitter) Complaint Bot - Main
+# | Last update..: July 3rd, 2024
+# | WhatIs.......: Internet Speed X (Twitter) Complaint Bot - Class
 # +----------------------------------------------------------------------------+
 
 # ------------ Resources / Documentation involved -------------
@@ -25,22 +25,23 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
+import tweepy  # Authenticate and Post on Twitter (X)
+
+# ------------------------- Variables -------------------------
 # Time
 now = datetime.datetime.now()
 todayDate = now.strftime("%d/%m/%Y")
 nowTime = now.strftime("%H:%M")
 
-import tweepy  # Authenticate and Post on Twitter (X)
-
-# ------------------------- Variables -------------------------
+# Chrome settings
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
 
 # Twitter (X) credentials
-consumer_key = ""
-consumer_secret = ""
-access_token = ""
-access_token_secret = ""
+consumer_key = "KS9GvA0QqzqTIa47xbAX31nvv"
+consumer_secret = "tmniGZaCM9RDZAQ3IPgiHIMCNu5HgblQITor5YB0v4Z2Xfw8Fo"
+access_token = "1801285421806112769-nho9NgBrZVjesEO6HnxdG9JKSqWy9h"
+access_token_secret = "Wl9QMOQSDRYTEEHdwRjmhVz3NZrr6qyHobGhGwH1ZitNg"
 
 
 # --------------------------- Code ----------------------------
