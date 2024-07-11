@@ -15,7 +15,7 @@ Create a twitter bot that posts information retrieved by web scrapping a website
 ## 🙌 Project Personal Milestones
 
 - Authenticated and posted using **Twitter (X)’s API** with Tweepy Python library. Learned how to use it’s classes and methods, as well as **handling exceptions**.
-- Web Scraping using **Selenium** (automated web testing tool), used its classes and methods. Handled Selenium exceptions that involved not finding and element.
+- Web Scraping using **Selenium** (automated web testing tool), used its classes and methods. Handled Selenium exceptions that involved not finding an element.
 
 ## 💡 Inspiration for creating this project
 
