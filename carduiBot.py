@@ -38,10 +38,10 @@ chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
 
 # Twitter (X) credentials
-consumer_key = "KS9GvA0QqzqTIa47xbAX31nvv"
-consumer_secret = "tmniGZaCM9RDZAQ3IPgiHIMCNu5HgblQITor5YB0v4Z2Xfw8Fo"
-access_token = "1801285421806112769-nho9NgBrZVjesEO6HnxdG9JKSqWy9h"
-access_token_secret = "Wl9QMOQSDRYTEEHdwRjmhVz3NZrr6qyHobGhGwH1ZitNg"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 
 # --------------------------- Code ----------------------------
