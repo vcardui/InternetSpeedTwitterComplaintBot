@@ -7,7 +7,7 @@ A bot that tests internet speed on [Speedtest](http://speedtest.net/) and post
 Create a twitter bot that posts information retrieved by web scrapping a website
 
 ### Working project demo
-![Twitter_complaint_2:Jun:2024](https://github.com/vcardui/internetSpeedTwitterComplaintBot/assets/145515264/454c80fc-88f2-4dfe-a2e3-3db64d1e568a)
+<img width="500" alt="" src="https://github.com/vcardui/internetSpeedTwitterComplaintBot/assets/145515264/454c80fc-88f2-4dfe-a2e3-3db64d1e568a"/>
 
 ### Internet Speed Tests Results
 ![internet_speed_test_results](https://github.com/vcardui/internetSpeedTwitterComplaintBot/assets/145515264/7e77c855-4217-4d59-a160-7b461df5659a)
